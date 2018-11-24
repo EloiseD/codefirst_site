@@ -1,12 +1,15 @@
+body {
+  font-family: "Courier new";
+  color: white;
+  text-align: center;
+  background-color: #505359;
+}
 h1 {
   color:red;
   text-align: center;
-  font-family: "Courier new";
 }
 h2 {
   text-align: center;
-  font-family: "Courier new";
 }
 ul {
-  font-family: "Courier new";
 }
