@@ -24,10 +24,13 @@ a.return_home{
   font-size: 25px;
 }
 a:visited {
-  color: #f22121;
+  color: white;
 }
 a:hover {
   color:#f22121;
+}
+a.social-link {
+  color:white;
 }
 img {
   border-style: solid;
