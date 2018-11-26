@@ -3,10 +3,15 @@ body {
   color: white;
   text-align: center;
   background-color: #242628;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 h1 {
   color:#f22121;
   text-align: center;
+  border-style: dotted;
+  border-color:white;
 }
 h2 {
   text-align: center;
@@ -16,6 +21,13 @@ ul {
   list-style-type: square;
   list-style-position: inside;
   font-size: 20px;
+}
+p {
+  font-size: 15px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 a:link {
   color: white;
@@ -62,3 +74,12 @@ label {
     padding-left: 80px;
     font-family: verdana;
   }
+  .column {
+    float: left;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
