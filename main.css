@@ -52,3 +52,10 @@ label {
 #email_submit {
   font-size:20px;
 }
+#social-buttons {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    font-family: verdana;
+  }
