@@ -10,6 +10,7 @@ h1 {
 }
 h2 {
   text-align: center;
+  font-size: 25px;
 }
 ul {
   list-style-type: square;
@@ -30,6 +31,8 @@ a:hover {
 }
 img {
   border-style: solid;
+  border-width:5px;
+  border-color:white;
 }
 .btn-twitter {
 background: #00acee;
@@ -42,4 +45,10 @@ border-color: #314776;
 .btn-pinterest {
 background: #b62f26;
 border-color: #b62f26;
+}
+label {
+  font-size: 20px;
+}
+#email_submit {
+  font-size:20px;
 }
