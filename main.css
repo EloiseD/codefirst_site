@@ -2,7 +2,7 @@ body {
   font-family: "Courier new";
   color: white;
   text-align: center;
-  background-color: #505359;
+  background-color: #242628;
 }
 h1 {
   color:#f22121;
@@ -14,9 +14,19 @@ h2 {
 ul {
   list-style-type: square;
   list-style-position: inside;
+  font-size: 20px;
 }
-a {
+a:link {
   color: white;
+}
+a.return_home{
+  font-size: 25px;
+}
+a:visited {
+  color: #f22121;
+}
+a:hover {
+  color:#f22121;
 }
 img {
   border-style: solid;
